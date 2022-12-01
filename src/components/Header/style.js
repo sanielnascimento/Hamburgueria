@@ -22,7 +22,7 @@ export const StyledHeader = styled.header`
     margin: 0 auto;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     height: 140px;
     padding: 1rem 2%;
     margin-bottom: 1rem;
