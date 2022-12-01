@@ -10,6 +10,7 @@ export const ResetStyle = createGlobalStyle`
 }
 
 body{
+    position: relative;
     font-family: 'Inter', sans-serif;
 }
 
