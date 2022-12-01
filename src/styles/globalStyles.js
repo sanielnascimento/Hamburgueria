@@ -24,6 +24,16 @@ export const GlobalStyle = createGlobalStyle`
     --font-s6: 0.750rem;/*12px*/
  }
 
+ .App{
+  text-align: center;
+ }
+
+
+ .Loading{
+  margin-top: 2rem;
+  color: var(--information);
+ }
+
  ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
