@@ -18,6 +18,7 @@ export const StyledCard = styled.li`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
     padding: 10px 0 20px 10px;
     width: 76.6763%;
     height: 100%;

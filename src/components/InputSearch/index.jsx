@@ -8,7 +8,7 @@ export const InputSearch = ({submitFilter}) => {
   const [inputValue, setInputValue] = useState('');
   return (
     <StyledInputSearch onSubmit={(e) => submitFilter(e, inputValue)}>
-      <StyledInput onChange={(e) => setInputValue(e.target.value)}  placeholder="Digitar Pesquisa"/>
+      <StyledInput onChange={(e) => setInputValue(e.target.value)} required minLength={4}  placeholder="Digitar Pesquisa"/>
       <StyledButton type="submit" >Pesquisar</StyledButton>
     </StyledInputSearch>
   );

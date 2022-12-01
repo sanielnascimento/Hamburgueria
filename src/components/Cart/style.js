@@ -25,10 +25,22 @@ export const StyledCart = styled.aside`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100px;
   }
 
   .NoCardsInfo > h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--grey100);
+    margin-bottom: 1rem;
   }
   .NoCardsInfo > span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--grey050);
   }
 `;
