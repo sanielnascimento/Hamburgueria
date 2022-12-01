@@ -1,8 +1,8 @@
 import React from "react";
 import { StyledCard } from "./style";
 
-export const Card = ({card, removeFromCart}) => {
-  const {id, name, category, img} = card;
+export const Card = ({ card, removeFromCart }) => {
+  const { id, name, category, img } = card;
   return (
     <StyledCard>
       <figure>
