@@ -2,9 +2,9 @@ import React from "react";
 import { StyledButton } from "../../styles/Components/Button/style";
 import { StyledProduct } from "./Product";
 
-export const Product = ({handleClick, elt, className }) => {
+export const Product = ({ handleClick, elt, className }) => {
   const { category, img, id, name, price } = elt;
-  return (    
+  return (
     <StyledProduct className={className}>
       <figure className="imgBox">
         <img src={img} alt={name} />
