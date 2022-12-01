@@ -12,6 +12,10 @@ export const StyledInputSearch = styled.form`
   border: 2px solid var(--grey020);
   border-radius: 8px;
 
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+
   button{
     position: absolute;
     right: 10px;

@@ -11,7 +11,7 @@ export const StyledHeader = styled.header`
   background-color: var(--grey000);
   margin-bottom: 2rem;
 
-  .header-content{
+  .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,5 +20,15 @@ export const StyledHeader = styled.header`
     height: 100%;
     max-height: 100%;
     margin: 0 auto;
+  }
+
+  @media (max-width: 600px) {
+    height: 140px;
+    padding: 1rem 2%;
+    margin-bottom: 1rem;
+    .header-content {
+      flex-direction: column;
+      justify-content: space-between;
+    }
   }
 `;

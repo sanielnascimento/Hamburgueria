@@ -1,12 +1,11 @@
 import React from "react";
 import { StyledProductsList } from "./procuctList";
-import {Product} from "../Product"
+import { Product } from "../Product";
 
-
-export const ProductsList = ({handleClick, products}) => {
+export const ProductsList = ({ handleClick, products }) => {
   return (
     <StyledProductsList>
-      {products.map((elt, i) => (
+      {products.map((elt) => (
         <Product handleClick={handleClick} key={elt.id} elt={elt} />
       ))}
     </StyledProductsList>

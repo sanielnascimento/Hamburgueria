@@ -16,4 +16,20 @@ export const StyledMain = styled.main`
     max-width: 100%;
     margin: 0 auto;
   }
+
+  @media (max-width: 600px) {
+    .main-content{
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  .main-content > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+    height: auto;
+  }
 `;
