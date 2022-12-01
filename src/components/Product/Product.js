@@ -3,11 +3,21 @@ import styled from "styled-components";
 export const StyledProduct = styled.li`
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 32%;
   height: 346px;
   background: var(--color-white);
   border: 2px solid var(--grey020);
   border-radius: 5px;
+
+  @media (max-width: 950px) {
+    width: 49%;
+    
+  }
+
+  @media (max-width: 700px) {
+    width: 300px;
+    
+  }
   
   .imgBox {
     display: flex;

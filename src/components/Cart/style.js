@@ -7,18 +7,28 @@ export const StyledCart = styled.aside`
   align-items: center;
   padding-bottom: 20px;
   gap: 20px;
-  width: 365px;
+  width: 29.545454%;
   min-height: 225px;
   background: var(--grey000);
   border-radius: 5px;
 
-  .NoCardsInfo{
+  @media (max-width: 950px) {
+    width: 40%;
+  }
+
+  @media (max-width: 700px) {
+    width: 100%;
+  }
+
+  .NoCardsInfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .NoCardsInfo>h3{}
-  .NoCardsInfo>span{}
+  .NoCardsInfo > h3 {
+  }
+  .NoCardsInfo > span {
+  }
 `;

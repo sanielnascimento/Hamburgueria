@@ -6,15 +6,22 @@ export const StyledInputSearch = styled.form`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 365px;
+  width: 29.545454%;
   height: 60px;
   background: var(--color-white);
   border: 2px solid var(--grey020);
   border-radius: 8px;
+  
+  @media (max-width: 950px) {
+    width: 40%;
+    
+  }
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     width: 100%;
   }
+
+
 
   button{
     position: absolute;

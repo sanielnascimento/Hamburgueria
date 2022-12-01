@@ -23,4 +23,17 @@ export const GlobalStyle = createGlobalStyle`
     --font-s5: 0.875rem;/*14px*/
     --font-s6: 0.750rem;/*12px*/
  }
+
+ ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: var(--grey000);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary-50);
+    border-radius: 6px;
+  }
+
 `;

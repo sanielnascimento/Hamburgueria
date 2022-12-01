@@ -5,7 +5,7 @@ export const StyledCartHeader = styled.div`
   justify-content: flex-start;
   align-items: center;
   padding: 0 20px;
-  width: 365px;
+  width: 100%;
   height: 65px;
   background: var(--color-primary);
   border-radius: 5px 5px 0 0;
